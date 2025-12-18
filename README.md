@@ -19,7 +19,6 @@ A lightweight, Python-based network utility designed to scan a target domain or 
 ```bash
 git clone https://github.com/Cr7cker/Pscan.git
 cd port-scanner
-python pscan.py
 ```
 
 ### 2. Install Dependencies
@@ -40,14 +39,14 @@ To run the scanner, use the `-d` or `--domain` flag followed by the target IP ad
 ### Basic Syntax:
 
 ```bash
-python scanner.py -d <TARGET_IP_OR_DOMAIN>
+python pscan.py -d <TARGET_IP_OR_DOMAIN>
 
 ```
 
 ### Example:
 
 ```bash
-python scanner.py -d 192.168.1.1
+python pscan.py -d 192.168.1.1
 
 ```
 
@@ -72,7 +71,7 @@ The script utilizes the `socket` library to attempt a connection to every port o
 
 ## 👤 Credits
 
-* **Author:** Cracker
+* **Author:** Cr7cker
 * **Language:** Python
 
 ---
